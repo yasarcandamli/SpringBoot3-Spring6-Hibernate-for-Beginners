@@ -11,11 +11,6 @@ public class CricketCoach implements ICoach{
         System.out.println("In constructor: " + getClass().getSimpleName());
     }
 
-    @Override
-    public String getDailyWorkout() {
-        return "Practice fast bowling for 15 minutes";
-    }
-
     // define our init method
     @PostConstruct
     public void doMyStartupStuff() {
@@ -26,5 +21,10 @@ public class CricketCoach implements ICoach{
     @PreDestroy
     public void doMyCleanupStuff() {
         System.out.println("In doMyCleanupStuff(): " + getClass().getSimpleName());
+    }
+
+    @Override
+    public String getDailyWorkout() {
+        return "Practice fast bowling for 15 minutes";
     }
 }
