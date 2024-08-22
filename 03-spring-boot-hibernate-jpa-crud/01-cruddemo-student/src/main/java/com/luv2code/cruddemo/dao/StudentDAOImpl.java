@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public class StudentDAOImpl implements StudentDAO{
+public class StudentDAOImpl implements StudentDAO {
 
     // define field for entity manager
     private EntityManager entityManager;
@@ -54,5 +54,11 @@ public class StudentDAOImpl implements StudentDAO{
 
         // return query results
         return theQuery.getResultList();
+    }
+
+    @Override
+    @Transactional
+    public void update(Student theStudent) {
+        entityManager.merge(theStudent);
     }
 }
