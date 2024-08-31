@@ -27,6 +27,7 @@
         <option value="$PROJECT_DIR$/04-spring-boot-rest-crud/02-spring-bbot-rest-crud-employee/pom.xml" />
         <option value="$PROJECT_DIR$/04-spring-boot-rest-crud/02-spring-boot-rest-crud-employee/pom.xml" />
         <option value="$PROJECT_DIR$/04-spring-boot-rest-crud/03-spring-boot-rest-crud-employee-with-spring-data-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/04-spring-boot-rest-crud/04-spring-boot-rest-crud-employee-with-spring-data-rest/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
