@@ -25,6 +25,7 @@
         <module name="cruddemo (2) (com.luv2code.springboot)" />
         <module name="springcoredemo (2)" />
         <module name="springcoredemo (1)" />
+        <module name="cruddemo (4) (com.luv2code.springboot)" />
         <module name="mycoolapp" />
       </profile>
     </annotationProcessing>
@@ -38,6 +39,7 @@
       <module name="cruddemo (1) (com.luv2code.springboot)" options="-parameters" />
       <module name="cruddemo (2) (com.luv2code.springboot)" options="-parameters" />
       <module name="cruddemo (3) (com.luv2code.springboot)" options="-parameters" />
+      <module name="cruddemo (4) (com.luv2code.springboot)" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="mycoolapp" options="-parameters" />
       <module name="mycoolapp (1)" options="-parameters" />
