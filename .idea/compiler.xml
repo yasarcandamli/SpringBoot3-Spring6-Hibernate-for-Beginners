@@ -14,6 +14,7 @@
         <module name="mycoolapp (1)" />
         <module name="cruddemo (3) (com.luv2code.springboot)" />
         <module name="validationdemo" />
+        <module name="cruddemo (5) (com.luv2code.springboot)" />
         <module name="springcoredemo" />
         <module name="demo" />
         <module name="springcoredemo (8)" />
@@ -42,6 +43,7 @@
       <module name="cruddemo (2) (com.luv2code.springboot)" options="-parameters" />
       <module name="cruddemo (3) (com.luv2code.springboot)" options="-parameters" />
       <module name="cruddemo (4) (com.luv2code.springboot)" options="-parameters" />
+      <module name="cruddemo (5) (com.luv2code.springboot)" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="mycoolapp" options="-parameters" />
       <module name="mycoolapp (1)" options="-parameters" />
