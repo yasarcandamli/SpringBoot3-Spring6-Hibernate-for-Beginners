@@ -39,14 +39,16 @@ public class DemoSecurityConfig {
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 
         http.authorizeHttpRequests(configurer ->
-                configurer
-                        .anyRequest().authenticated()
-            ).formLogin(form ->
-                    form
-                            .loginPage("/showMyLoginPage")
-                            .loginProcessingUrl("/authenticateTheUser")
-                            .permitAll()
-            );
+                        configurer
+                                .anyRequest().authenticated()
+                ).formLogin(form ->
+                        form
+                                .loginPage("/showMyLoginPage")
+                                .loginProcessingUrl("/authenticateTheUser")
+                                .permitAll()
+                )
+                .logout(logout -> logout.permitAll()
+                );
 
         return http.build();
     }
