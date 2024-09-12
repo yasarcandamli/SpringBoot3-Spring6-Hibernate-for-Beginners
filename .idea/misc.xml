@@ -33,6 +33,7 @@
         <option value="$PROJECT_DIR$/06-spring-boot-spring-mvc/validationdemo/pom.xml" />
         <option value="$PROJECT_DIR$/07-spring-boot-spring-mvc-crud/00-spring-boot-spring-mvc-crud-starter-code/pom.xml" />
         <option value="$PROJECT_DIR$/08-spring-boot-spring-mvc-security/01-spring-boot-spring-mvc-security-default/pom.xml" />
+        <option value="$PROJECT_DIR$/09-spring-boot-jpa-advanced-mappings/01-jpa-one-to-one-uni/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
