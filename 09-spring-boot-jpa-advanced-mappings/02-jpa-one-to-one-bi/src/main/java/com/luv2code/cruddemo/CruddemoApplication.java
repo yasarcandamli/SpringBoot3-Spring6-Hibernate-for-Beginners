@@ -32,7 +32,7 @@ public class CruddemoApplication {
 	}
 
 	private void deleteInstructorDetailById(AppDAO appDAO) {
-		int theId = 3;
+		int theId = 4;
 		System.out.println("Deleting instructor detail id: " + theId);
 
 		appDAO.deleteInstructorDetailById(theId);
@@ -74,7 +74,6 @@ public class CruddemoApplication {
 
 	private void createInstructor(AppDAO appDAO) {
 
-		/*
 		// create the instructor
 		Instructor tempInstructor =
 				new Instructor("Chad", "Darby", "darby@luv2code.com");
@@ -82,7 +81,7 @@ public class CruddemoApplication {
 		// create the instructor detail
 		InstructorDetail tempInstructorDetail =
 				new InstructorDetail("http://www.luv2code.com/youtube", "Luv 2 code!!!");
-		*/
+/*
 
 		// create the instructor
 		Instructor tempInstructor =
@@ -91,6 +90,7 @@ public class CruddemoApplication {
 		// create the instructor detail
 		InstructorDetail tempInstructorDetail =
 				new InstructorDetail("http://www.luv2code.com/youtube", "Guitar");
+*/
 
 		// associate the objects
 		tempInstructor.setInstructorDetail(tempInstructorDetail);
