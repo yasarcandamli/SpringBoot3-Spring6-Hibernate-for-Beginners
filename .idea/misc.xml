@@ -35,6 +35,7 @@
         <option value="$PROJECT_DIR$/08-spring-boot-spring-mvc-security/01-spring-boot-spring-mvc-security-default/pom.xml" />
         <option value="$PROJECT_DIR$/09-spring-boot-jpa-advanced-mappings/01-jpa-one-to-one-uni/pom.xml" />
         <option value="$PROJECT_DIR$/09-spring-boot-jpa-advanced-mappings/02-jpa-one-to-one-bi/pom.xml" />
+        <option value="$PROJECT_DIR$/09-spring-boot-jpa-advanced-mappings/03-jpa-one-to-many/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
