@@ -27,8 +27,23 @@ public class CruddemoApplication {
 
 			// findInstructorDetailById(appDAO);
 
-			deleteInstructorDetailById(appDAO);
+			// deleteInstructorDetailById(appDAO);
+
+			createInstructorWithCourses(appDAO);
 		};
+	}
+
+	private void createInstructorWithCourses(AppDAO appDAO) {
+		// create the instructor
+		Instructor tempInstructor =
+				new Instructor("Susan", "Public", "susan.public@luv2code.com");
+
+		// create the instructor detail
+		InstructorDetail tempInstructorDetail =
+				new InstructorDetail("http://www.youtube.com", "Video Games");
+
+		// associate the objects
+		tempInstructor.setInstructorDetail(tempInstructorDetail);
 	}
 
 	private void deleteInstructorDetailById(AppDAO appDAO) {
@@ -73,6 +88,7 @@ public class CruddemoApplication {
 	}
 
 	private void createInstructor(AppDAO appDAO) {
+/*
 
 		// create the instructor
 		Instructor tempInstructor =
@@ -81,7 +97,8 @@ public class CruddemoApplication {
 		// create the instructor detail
 		InstructorDetail tempInstructorDetail =
 				new InstructorDetail("http://www.luv2code.com/youtube", "Luv 2 code!!!");
-/*
+*/
+
 
 		// create the instructor
 		Instructor tempInstructor =
@@ -90,7 +107,7 @@ public class CruddemoApplication {
 		// create the instructor detail
 		InstructorDetail tempInstructorDetail =
 				new InstructorDetail("http://www.luv2code.com/youtube", "Guitar");
-*/
+
 
 		// associate the objects
 		tempInstructor.setInstructorDetail(tempInstructorDetail);
