@@ -18,6 +18,7 @@
         <module name="cruddemo" />
         <module name="thymeleafdemo" />
         <module name="springcoredemo (6)" />
+        <module name="cruddemo (4)" />
         <module name="springcoredemo (4)" />
         <module name="springcoredemo (2)" />
         <module name="cruddemo (4) (com.luv2code.springboot)" />
@@ -49,6 +50,7 @@
       <module name="cruddemo (2) (com.luv2code.springboot)" options="-parameters" />
       <module name="cruddemo (3)" options="-parameters" />
       <module name="cruddemo (3) (com.luv2code.springboot)" options="-parameters" />
+      <module name="cruddemo (4)" options="-parameters" />
       <module name="cruddemo (4) (com.luv2code.springboot)" options="-parameters" />
       <module name="cruddemo (5) (com.luv2code.springboot)" options="-parameters" />
       <module name="demo" options="-parameters" />
