@@ -29,6 +29,7 @@
         <module name="cruddemo (3) (com.luv2code.springboot)" />
         <module name="springcoredemo" />
         <module name="cruddemo (2)" />
+        <module name="cruddemo (5)" />
         <module name="springcoredemo (7)" />
         <module name="cruddemo (3)" />
         <module name="springcoredemo (5)" />
@@ -52,6 +53,7 @@
       <module name="cruddemo (3) (com.luv2code.springboot)" options="-parameters" />
       <module name="cruddemo (4)" options="-parameters" />
       <module name="cruddemo (4) (com.luv2code.springboot)" options="-parameters" />
+      <module name="cruddemo (5)" options="-parameters" />
       <module name="cruddemo (5) (com.luv2code.springboot)" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demosecurity" options="-parameters" />
