@@ -10,9 +10,9 @@ public class MyDemoLoggingAspect {
 
     // this is where we add all opf our related advices for logging
 
-    // let's start with an @Before advice
+    // let's start with a @Before advice
 
-    @Before("execution(public void addAcoount())")
+    @Before("execution(public void addAccount())")
     public void beforeAddAccountAdvice() {
         System.out.println("\n =====>>> Executing @Before advice on addAccount()");
     }
