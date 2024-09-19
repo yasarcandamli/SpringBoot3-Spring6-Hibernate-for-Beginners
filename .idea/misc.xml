@@ -40,6 +40,7 @@
         <option value="$PROJECT_DIR$/09-spring-boot-jpa-advanced-mappings/05-jpa-many-to-many/pom.xml" />
         <option value="$PROJECT_DIR$/10-spring-boot-aop/01-spring-boot-aop-demo/pom.xml" />
         <option value="$PROJECT_DIR$/10-spring-boot-aop/02-spring-boot-aop-demo-pointcut-declarations/pom.xml" />
+        <option value="$PROJECT_DIR$/10-spring-boot-aop/03-spring-boot-mvc-crud-demo-employees/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

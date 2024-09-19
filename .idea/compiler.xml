@@ -37,6 +37,7 @@
         <module name="springcoredemo (5)" />
         <module name="springcoredemo (3)" />
         <module name="cruddemo (2) (com.luv2code.springboot)" />
+        <module name="thymeleafdemo (1)" />
         <module name="springcoredemo (1)" />
       </profile>
     </annotationProcessing>
@@ -77,6 +78,7 @@
       <module name="springcoredemo (7)" options="-parameters" />
       <module name="springcoredemo (8)" options="-parameters" />
       <module name="thymeleafdemo" options="-parameters" />
+      <module name="thymeleafdemo (1)" options="-parameters" />
       <module name="validationdemo" options="-parameters" />
     </option>
   </component>
